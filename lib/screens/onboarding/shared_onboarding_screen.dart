@@ -18,13 +18,14 @@ class SharedOnboardingScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(kDefaultPadding),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center, 
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(imagePath, width: 300, fit: BoxFit.cover),
           const SizedBox(height: 20),
           Text(
             title,
             style: TextStyle(fontSize: 28, fontWeight: FontWeight.w500),
+            textAlign: TextAlign.center,
           ),
           const SizedBox(height: 20),
           Text(
