@@ -36,7 +36,6 @@ class _MainScreenState extends State<MainScreen> {
         onTap: (index) {
           setState(() {
             _currentPageIndex = index;
-            print(_currentPageIndex);
           });
         },
         selectedLabelStyle: const TextStyle(
